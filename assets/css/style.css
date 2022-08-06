@@ -1,0 +1,146 @@
+body{
+    /* to remove the margin from the body */
+    margin:0;   
+    text-align: center;
+    font-family: 'Merriweather', sans-serif;
+}
+.top-container{
+background-color: #e4f9f5;
+padding-top: 6.25rem;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66bfbf;  
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;  
+    color: #66bfbf;
+}
+
+.janded{
+    text-decoration: underline;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 16.75rem;
+    top: 2.5rem;
+}
+
+.bottom-cloud{
+    position: absolute;
+}
+.profile{
+   padding: 100px 15px;
+   
+}
+
+.intro{
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p{
+    line-height: 2;
+    /* this applies to all paragraph text */
+}
+
+hr{
+    border: 10px dotted #5de7e7;
+    border-bottom: none;
+    width: 7%;
+}
+
+.clr{
+    clear: both;
+}
+
+.job  img{
+ float: left;
+ }
+
+ .job h3{
+     padding-top: 150px;
+ }
+
+ .skill-row img{
+    float: right;
+    padding-top: 15
+}
+
+.clie{
+    clear: both;
+}
+
+.skill-row h3{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.con{
+    text-decoration: underline;
+    text-decoration-color: #66bfbf;
+}
+
+input[type=text], textarea {
+    width: 60%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  input[type=email]{
+    width: 60%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical 
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #b62f6e;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .my-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    
+  }
+
+  .my-form label{
+      font-weight: bold;     
+  }
+  
+   #main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
